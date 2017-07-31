@@ -764,8 +764,8 @@ int margin=0;
 int level=0;
 
 /*insert elements with both margin and level :
-While going through the tree, for each each left node the margin decreases by one
-and for each right node the margin increases by one. I both cases, when jumping to
+While going through the tree, for each left node the margin decreases by one
+and for each right node the margin increases by one. In both cases, when jumping to
 a child node the level increases by one. This could be useful when printing
 a straight binary search Tree like so :
         ____5____
